@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"path": "../../../Competitive Programming"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"vector": "cpp",
+			"iostream": "cpp",
+			"ostream": "cpp",
+			"chrono": "cpp",
+			"random": "cpp",
+			"limits": "cpp",
+			"valarray": "cpp"
+		},
+		"liveServer.settings.multiRootWorkspaceName": "MyFolio"
+	}
+}
