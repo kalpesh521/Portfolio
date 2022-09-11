@@ -31,7 +31,7 @@
     justify-content: space-between;
 }
 .navbar .logo img{
-    width :30pxx;
+    width :30px;
     height: 20px;
 }
 .navbar .logo a{
@@ -190,6 +190,125 @@ font-family: 'Ubuntu','san serif';
     color: crimson;
     background: none;
 }
+
+/* Box 1 */
+#box{
+    margin-top: 40px;
+}
+.box1 {
+    display: flex;
+    width: 100%;
+    height: 5px;
+    margin: 5px 0px 60px 0px;
+    margin-top: -65px;
+  }
+  
+  .box1-sm {
+    height: 3px;
+    margin: 0;
+    flex-grow: 1;
+    transition: all .8s ease-in-out;
+    cursor: pointer;
+  }
+  
+   
+  .box1-sm:hover {
+    flex-grow: 12;
+  }
+ 
+.silver {
+    background-color: rgb(184, 184, 184);
+  }
+ 
+/* Box 2 */
+#box2{
+    margin-top: 10px;
+}
+.box2 {
+    display: flex;
+    width: 100%;
+    height: 5px;
+    margin: 5px 0px 60px 0px;
+    margin-top: -65px;
+  }
+  
+  .box2-sm {
+    height: 2px;
+    margin: 0;
+    flex-grow: 1;
+    transition: all .8s ease-in-out;
+    cursor: pointer;
+  }
+  
+   
+  .box2-sm:hover {
+    flex-grow: 12;
+  }
+ 
+.silverl {
+    background-color: rgb(224, 224, 224);
+  }
+/* Skill section */
+
+.skills .title{
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    padding-bottom: 60px;
+    color: #000;
+    font-family: 'Ubuntu','san serif';
+    
+    }
+
+.menul{
+   margin-left: 470px;
+}
+.menu{
+    display :inline-block;
+    padding: 0px 23px;   
+    font-family: 'Ubuntu','san serif';
+    font-weight: 450;
+    font-size: 18px;
+
+}
+.pgml{
+    font-size: 30px;
+    font-weight: 500;
+    font-family: 'Ubuntu','san serif';
+    margin-bottom: -60px;
+
+}
+.menulimg{
+     
+     margin-left: 470px;
+}
+.menuimg{
+     display: inline-block;
+     padding: 5px 30px;   
+
+}
+#java-img{
+    margin-left: 18px;
+}
+
+#bootstrap-img{
+    margin-left: 10px;
+}
+#data{
+    margin-left: 10px;
+}
+#sys-img{
+    margin-left: 30px;
+}
+#img-static{
+    margin-left: 20px;
+    padding: 50px;
+}
+ 
+ 
 /* Responsive Media queries */
 
 @media (max-width :1080px){
