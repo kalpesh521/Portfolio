@@ -6,6 +6,7 @@
     box-sizing: border-box;
 }
 
+
 /* Navigation Bar  */
 
 .navbar{
@@ -86,6 +87,7 @@
     background-attachment: fixed;
     font-family: 'Ubuntu','san serif';
 
+
 }
 .home .max-width{
     width:100%;
@@ -115,9 +117,11 @@
 /* About Section */
 #about{
    margin-top: 50px;
+   /* background: rgb(105, 105, 105); */
+   /* padding: 0 50px; */
    /* margin-bottom: -50px; */
 }
-.about{
+.about .services{
     font-family: 'Poppins','San Serif';
 }
 .box {
@@ -146,7 +150,7 @@
   }
 
 
-.about .title{
+section .title{
 position: relative;
 text-align: center;
 font-size: 40px;
@@ -275,11 +279,17 @@ font-family: 'Ubuntu','san serif';
 
 }
 .pgml{
-    font-size: 30px;
+    font-size: 26px;
     font-weight: 500;
     font-family: 'Ubuntu','san serif';
     margin-bottom: -60px;
 
+}
+.pgml img{
+    margin-bottom: -10px;
+}
+.web img{
+    margin-bottom: -10px;
 }
 .menulimg{
      
@@ -290,24 +300,119 @@ font-family: 'Ubuntu','san serif';
      padding: 5px 30px;   
 
 }
+#img-sql{
+    margin-left: -25px;
+}
 #java-img{
-    margin-left: 18px;
+    margin-left: 16px;
 }
 
+.web{
+    font-size: 26px;
+    font-weight: 500;
+    font-family: 'Ubuntu','san serif';
+    margin-bottom: -80px;
+
+}
 #bootstrap-img{
-    margin-left: 10px;
+    margin-left: 30px;
+}
+.menuAz{
+    display :inline-block;
+    padding: 0px 10px;   
+    font-family: 'Ubuntu','san serif';
+    font-weight: 450;
+    font-size: 18px;
+
+}
+.menuAZimg{
+    margin-left: 460px;
+    padding: 0 -10px;
+}
+.menuimgAz{
+    display: inline-block;
+    padding: 5px 23px;   
+
+}
+.menuAz{
+    margin-left: 470px;
 }
 #data{
     margin-left: 10px;
+}
+#static-img{
+    margin-left: 5px;
 }
 #sys-img{
     margin-left: 30px;
 }
 #img-static{
     margin-left: 20px;
-    padding: 50px;
 }
  
+#factory{
+    margin-left: -20px;
+}
+ 
+#analytics{
+    margin-left: -5px;
+}
+ 
+#apps{
+    margin-left: -40px;
+}
+/* Project Section */
+ 
+.services .serv-content{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.services, .teams{
+    color:rgb(0, 0, 0);
+    background: rgb(255, 255, 255);
+}
+.services .title::before,
+.teams .title::before{
+    background: #fff;
+}
+.services .title::after,
+.teams .title::after{
+    background: rgb(255, 255, 255);
+    content: "";
+}
+.services .serv-content .card{
+    width: calc(33% - 20px);
+    background: rgb(157, 157, 157);
+    text-align: center;
+    border-radius: 6px;
+    padding: 70px 35px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.services .serv-content .card:hover{
+    background: crimson;
+}
+.services .serv-content .card .box{
+    transition: all 0.3s ease;
+}
+.services .serv-content .card:hover .box{
+    transform: scale(1.05);
+}
+.services .serv-content .card i{
+    font-size: 50px;
+    color: crimson;
+    transition: color 0.3s ease;
+}
+.services .serv-content .card:hover i{
+    color: rgb(255, 255, 255);
+}
+.services .serv-content .card .text{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
+}
  
 /* Responsive Media queries */
 
